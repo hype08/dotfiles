@@ -4,18 +4,15 @@ set runtimepath+=~/.vim_runtime
 call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'scrooloose/nerdtree'
 Plug 'camspiers/animate.vim'
 Plug 'camspiers/lens.vim'
 Plug 'junegunn/fzf', { 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
+Plug 'preservim/nerdtree'
 call plug#end()
 
-" Nerdtree
-let g:NERDTreeDirArrowExpandable = '▸'
-let g:NERDTreeDirArrowCollapsible = '▾'
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" Airline Theme
+let g:airline_theme='cobalt2'
 
 " javascript syntax highlighting
 let g:javascript_plugin_jsdoc = 1
