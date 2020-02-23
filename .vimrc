@@ -1,6 +1,8 @@
 " vim runtime path
 set runtimepath+=~/.vim_runtime
 
+syntax enable
+
 call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -10,6 +12,11 @@ Plug 'junegunn/fzf', { 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 Plug 'preservim/nerdtree'
 call plug#end()
+
+autocmd vimenter * NERDTree
+" auto close vim if NERDTree is last window
+autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
 
 " Airline Theme
 let g:airline_theme='cobalt2'
