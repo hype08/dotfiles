@@ -105,3 +105,6 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # FZF
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Source Bash profile
+source ~/.bash_profile
