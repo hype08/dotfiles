@@ -36,3 +36,6 @@ runtime macros/matchit.vim
 
 " set Mouse scroll
 :set mouse=a
+
+" copy and paste across terminals
+set clipboard=unnamed
