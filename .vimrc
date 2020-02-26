@@ -38,4 +38,4 @@ runtime macros/matchit.vim
 :set mouse=a
 
 " copy and paste across terminals
-set clipboard=unnamed
+:set clipboard=unnamed
