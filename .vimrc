@@ -34,8 +34,8 @@ autocmd StdinReadPre * let s:std_in=1
 " match TAGS
 runtime macros/matchit.vim
 
-" set Mouse scroll
+" Set Mouse scroll
 :set mouse=a
 
-" copy and paste across terminals
+" Copy and paste across terminals
 :set clipboard=unnamed
