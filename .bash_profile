@@ -1,19 +1,11 @@
 if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
-    tmux attach -t base 
+    tmux attach -t 0
 fi
 
 alias start="yarn start"
 alias runs="yarn run watch:server"
 alias runc="yarn run watch:client"
-alias client="cd /Users/henry/Documents/AP2/client/"
-alias client-api="cd /Users/henry/Documents/AP2/client-api/"
-alias batch="cd /Users/henry/Documents/AP2/batch"
-alias batch-node="cd /Users/henry/Documents/AP2/batch-node/"
-alias ac-api="cd /Users/henry/Documents/AP2/ac-api/"
 
-alias henry="cd /Users/henry/Documents/Dev/"
-alias form="cd /Users/henry/Documents/AP2/form/"
-alias mypage="cd /Users/henry/Documents/AP2/mypage/"
 alias status="git status"
 alias branch="git branch"
 alias delete="git branch -D"
