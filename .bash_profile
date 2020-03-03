@@ -31,7 +31,7 @@ alias commit="git commit -m"
 alias log="git log"
 
 function lazy() {
-		git add .
-		git commit -a -m "$1"
-		git push
+    git add .
+    git commit -a -m "$1"
+    git push
 }
