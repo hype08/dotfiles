@@ -5,6 +5,7 @@ fi
 alias start="yarn start"
 alias runs="yarn run watch:server"
 alias runc="yarn run watch:client"
+alias build="yarn run build"
 
 alias status="git status"
 alias branch="git branch"
@@ -21,9 +22,5 @@ alias add="git add ."
 alias push="git push"
 alias commit="git commit -m"
 alias log="git log"
-
-function lazy() {
-    git add .
-    git commit -a -m "$1"
-    git push
-}
+alias lg="lazygit"
+alias cl="clear"
