@@ -8,11 +8,6 @@ Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 call plug#end()
 
-" Theme
-colorscheme bluewery
-syntax on
-set number
-
 " Tab size
 set ts=2 sw=4
 
