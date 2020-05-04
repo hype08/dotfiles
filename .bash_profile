@@ -24,3 +24,9 @@ alias commit="git commit -m"
 alias log="git log"
 alias lg="lazygit"
 alias cl="clear"
+
+export GOROOT="/usr/local/go"                                                                                                   |~                                  
+export GOPATH="/Users/henrys_mbp/go"                                                                                            |~                                  
+export PATH="/Users/henrys_mbp/go/bin:$PATH" 
+
+export PATH="$HOME/.cargo/bin:$PATH"  
