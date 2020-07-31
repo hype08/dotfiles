@@ -25,8 +25,12 @@ alias log="git log"
 alias lg="lazygit"
 alias cl="clear"
 
-export GOROOT="/usr/local/go"                                                                                                   |~                                  
-export GOPATH="/Users/henrys_mbp/go"                                                                                            |~                                  
+export GOROOT="/usr/local/go"                                                                                                                               
+export GOPATH="/Users/henrys_mbp/go"                                                                                                                              
 export PATH="/Users/henrys_mbp/go/bin:$PATH" 
 
 export PATH="$HOME/.cargo/bin:$PATH"  
+
+source ~/.nvm/nvm.sh
+[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
