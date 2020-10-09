@@ -25,6 +25,12 @@ alias log="git log"
 alias lg="lazygit"
 alias cl="clear"
 
+alias sd="sls deploy"
+alias sdf="sls deploy -f"
+alias sif="sls invoke -f"
+
+export PATH="$HOME/.tfenv/bin:$PATH"
+
 export GOROOT="/usr/local/go"                                                                                                                               
 export GOPATH="/Users/henrys_mbp/go"                                                                                                                              
 export PATH="/Users/henrys_mbp/go/bin:$PATH" 
